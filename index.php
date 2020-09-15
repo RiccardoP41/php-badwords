@@ -11,7 +11,7 @@ $length = strlen($text);
 
 
 //sostituisco la badword con ***
-$badword = $GET_["name"];
+$badword = $_GET["name"];
 $textcensored = str_replace($badword,"***",$text);
 ?>
 
