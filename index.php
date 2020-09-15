@@ -24,6 +24,7 @@ $textcensored = str_replace($badword,"***",$text);
     <body>
         <p><?php echo $text;?></p>
         <p><?php echo $length . " caratteri di lunghezza";?></p>
-        <p><?php echo $textcensored;?></p> 
+        <p><?php echo $textcensored;?></p>
+        <p><?php echo  strlen($textcensored) . " caratteri di lunghezza";?></p>
     </body>
 </html>
